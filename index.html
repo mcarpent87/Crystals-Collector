@@ -8,40 +8,77 @@
     <!--Link to the Boostrap and external CSS files-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css" />
-    
+    <!--Link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Fugaz+One|Monoton|Orbitron" rel="stylesheet">
 
 </head>
 <body>
-    <div class="header">
+    <div class="jumbotron">
         <h1>Crystals Collector</h1>
     </div>
 
-    <div class="total_count">
-        <h2>Number: <span id="targetNumber"></span></h2>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="title">How to Play!</h3>
+                </div>
+            </div>
+        <div class="card body">
+            <div class="card text">
+                <p> A random number will appear at the start of the game.</p>
+                <p> To the right there are four crystals. By clicking on a crystal you will add a specific amount of points
+                    to your total score.</p>
+                <p> You win the game by matching your total score to the random number, 
+                    you lose the game if your total score goes above the random number.</p>
+                <p> The value of each crytsal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-7">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Number: <span id="targetNumber"></span></h2>
+                </div>
+                
+                <div class="col-md-3">
+                    <h2>wins:
+                        <span id = "numberWins"></span>
+                    </h2>
+                    
+                    <h2>losses:
+                        <span id = "numberLosses"></span>
+                    </h2>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-7-crystals">
+                        <img class="crystal-image" src="./assets/images/Crystal-Purple.png" id="one" alt="crystals" style="width:150px; height:150px;">
+                        <img class="crystal-image" src="./assets/images/Crystal-Yellow.png" id="two" alt="crystals" style="width:150px; height:150px;">
+                        <img class="crystal-image" src="./assets/images/Crystal-Red.png" id="three" alt="crystals" style="width:150px; height:150px;">
+                        <img class="crystal-image" src="./assets/images/Crystal-Blue.png" id="four" alt="crystals" style="width:150px; height:150px;">
+                </div>
+            </div>
+        <br>
+            <div class="row">
+                <div class = "col-md-7-usertotal">
+                    <h2>Your total score is: <span id = "finalTotal"></span></h2>
+                </div>
+            </div>
+        </div>
+    </div>       
     </div>
-    <div id="crystals">
+    
+    
 
-        <img class="crystal-image" src="./assets/images/amethyst.jpg" id="one" alt="crystals">
-        <img class="crystal-image" src="./assets/images/blue crystal.jpg" id="two" alt="crystals">
-        <img class="crystal-image" src="./assets/images/green crystal.jpg" id="three" alt="crystals">
-        <img class="crystal-image" src="./assets/images/red crystal.jpg" id="four" alt="crystals">
-    </div>
 
-    <div class="userTotal">
-        <h2>Your total score is:
-                <span id = "finalTotal"></span>
-        </h2>
-    </div>
 
-    <div class="wins_losses">
-        <h2>wins:
-            <span id = "numberWins"></span>
-        </h2>
-
-        <h2>losses:
-            <span id = "numberLosses"></span>
-        </h2>
-    </div>
+    
+    
+    
 
     <!-- JAVASCRIPT  -->
   <!-- ========================================= -->

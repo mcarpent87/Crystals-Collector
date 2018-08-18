@@ -102,6 +102,3 @@ $('#four').on("click", function() {
     loser();
   }
 })
-
-
-

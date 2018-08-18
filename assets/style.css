@@ -1,4 +1,87 @@
+/*Add background pattern*/
+body {
+  background-image: url(./images/congruent_pentagon.png);
+  background-size: auto, cover; 
+}
+
+
 .crystal-image {
     width: 300px;
     height: 300px;
   }
+
+.container{
+  float:left;
+}
+
+.card-header {
+  background-color: navy;
+}
+.col-md-4 {
+  background-color: navy;
+  border: grey 2px solid;
+  border-radius: 25px; 
+}
+.col-md-3 {
+  border: grey 2px solid;
+  position: relative;
+  right:-20px; 
+  background-color: navy;
+  border-radius: 25px; 
+}
+
+.jumbotron {
+  background-color: navy;
+  text-align: center; 
+  color: #ccc;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: lightpink;
+}
+
+h2 {
+  font-weight: bold;
+  color: lightpink;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+  color: lightpink;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.card.text {
+  height:350px;
+  background: navy;
+}
+
+crytsal-image{
+  width:100px;
+  height:100px;
+}
+
+.col-md-7-usertotal {
+  background-color: navy;
+  padding: 25px; 
+  border-radius: 25px; 
+}
+
+col-md-7.crystals {
+  width:665;
+}
+
+p {
+  font-weight:bold;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: lightpink;
+  font-family: 'Orbitron', sans-serif;
+}
+
