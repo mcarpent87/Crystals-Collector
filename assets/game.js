@@ -50,7 +50,7 @@ function loser () {
   reset();
 }
 
-//Set up user clicks for each of the jewels
+//Set up user clicks for each of the crystals
 $('#one').on("click", function() {
   userTotal = userTotal + crystal1;
   console.log("New userTotal= " + userTotal);

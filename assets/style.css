@@ -5,83 +5,70 @@ body {
 }
 
 
-.crystal-image {
-    width: 300px;
-    height: 300px;
-  }
-
-.container{
-  float:left;
-}
-
+/*Style everything within the container*/
 .card-header {
   background-color: navy;
 }
+
+.card.text {
+  background: navy;
+  height: auto;
+  width: auto;
+}
+
 .col-md-4 {
   background-color: navy;
   border: grey 2px solid;
-  border-radius: 25px; 
+  border-radius: 5px; 
 }
 .col-md-3 {
+  background-color: navy;
   border: grey 2px solid;
+  border-radius: 5px;  
   position: relative;
   right:-20px; 
-  background-color: navy;
-  border-radius: 25px; 
 }
 
 .jumbotron {
   background-color: navy;
-  text-align: center; 
   color: #ccc;
-}
-
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-  color: lightpink;
-}
-
-h2 {
-  font-weight: bold;
-  color: lightpink;
-  font-family: 'Orbitron', sans-serif;
-}
-
-h3 {
-  font-weight: bold;
-  color: lightpink;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.card.text {
-  height:350px;
-  background: navy;
-}
-
-crytsal-image{
-  width:100px;
-  height:100px;
+  text-align: center; 
 }
 
 .col-md-7-usertotal {
   background-color: navy;
+  border: grey 2px solid;
+  border-radius: 5px; 
   padding: 25px; 
-  border-radius: 25px; 
 }
 
-col-md-7.crystals {
-  width:665;
+/* Style the headings and text*/
+h1 {
+  color: lightpink;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  color: lightpink;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: lightpink;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
 }
 
 p {
-  font-weight:bold;
+  color: lightpink;
+  font-family: 'Orbitron', sans-serif;
   font-size: 16px;
+  font-weight:bold;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
-  color: lightpink;
-  font-family: 'Orbitron', sans-serif;
 }
 
